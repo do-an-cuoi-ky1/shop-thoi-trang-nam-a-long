@@ -18,17 +18,19 @@ header {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    padding: 10px; /* Thêm padding để tạo không gian cho logo */
 }
 
 .logo {
-    width: 60px;
-    height: 40px; /* Thay đổi chiều cao của logo */
+    width: 80px;  /* Thay đổi chiều rộng để logo không bị nhỏ quá */
+    height: 50px; /* Điều chỉnh chiều cao để logo có tỷ lệ hợp lý */
     object-fit: cover;
     border-radius: 8px; /* Bo góc cho logo */
 }
 
 h1 {
     font-size: 24px;
+    margin: 0; /* Giảm khoảng cách bên dưới tiêu đề */
 }
 
 main {
